@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hypothesis-property-based-testing"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <jbris@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+hypothesis = "^6.98.15"
+pytest = "^8.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
